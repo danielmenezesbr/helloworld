@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="6" original="/strings.json" source-language="en" target-language="pt-BR" datatype="plaintext" project-id="634444" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="92" resname="app.welcome">
+        <source>Welcome to our App!</source>
+        <target state="needs-translation">Welcome to our App!</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; welcome</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94" resname="app.greeting">
+        <source>Hello, {name}!</source>
+        <target state="needs-translation">Hello, {name}!</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; greeting</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96" resname="app.menu.home">
+        <source>Home</source>
+        <target state="needs-translation">Home</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; menu -&gt; home</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98" resname="app.menu.about">
+        <source>About Us</source>
+        <target state="needs-translation">About Us</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; menu -&gt; about</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="100" resname="app.menu.contact" translate="no">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; menu -&gt; contact</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="102" resname="app.messages.error">
+        <source>An error occurred: {errorMessage}</source>
+        <target state="needs-translation">An error occurred: {errorMessage}</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; messages -&gt; error</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="104" resname="app.messages.success">
+        <source>Success! {successMessage}</source>
+        <target state="needs-translation">Success! {successMessage}</target>
+        <context-group purpose="information">
+          <context context-type="source">app -&gt; messages -&gt; success</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
