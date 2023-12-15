@@ -33,9 +33,9 @@
           <context context-type="source">app -&gt; menu -&gt; about</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="100" resname="app.menu.contact" translate="no">
+      <trans-unit id="100" resname="app.menu.contact">
         <source>Contact</source>
-        <target>Contact</target>
+        <target state="needs-translation">Contact</target>
         <context-group purpose="information">
           <context context-type="source">app -&gt; menu -&gt; contact</context>
         </context-group>
