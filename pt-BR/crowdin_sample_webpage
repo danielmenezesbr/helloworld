@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="2" original="/crowdin_sample_webpage.html" source-language="en" target-language="pt-BR" datatype="plaintext" project-id="634444" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="2">
+        <source>HTML Sample File</source>
+        <target state="needs-translation">HTML Sample File</target>
+        <context-group purpose="information">
+          <context context-type="source">Document Title&#13;
+XPath: /html/head/title</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Crowdin HTML Sample</source>
+        <target state="needs-translation">Crowdin HTML Sample</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 1&#13;
+XPath: /html/body/div[1]/h1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>A &lt;b&gt;responsive&lt;/b&gt; website created for testing purposes.</source>
+        <target state="needs-translation">A &lt;b&gt;responsive&lt;/b&gt; website created for testing purposes.</target>
+        <context-group purpose="information">
+          <context context-type="source">Paragraph text&#13;
+XPath: /html/body/div[1]/p</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Services&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;About us&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;right&quot;&gt;Contact us&lt;/a&gt;</source>
+        <target state="needs-translation">&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Services&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;About us&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;right&quot;&gt;Contact us&lt;/a&gt;</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>About us</source>
+        <target state="needs-translation">About us</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 2&#13;
+XPath: /html/body/div[3]/div[1]/h2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Meet our team</source>
+        <target state="needs-translation">Meet our team</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 5&#13;
+XPath: /html/body/div[3]/div[1]/h5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Image</source>
+        <target state="needs-translation">Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[1]/div[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Our company is diverse in every meaning of this word.</source>
+        <target state="needs-translation">Our company is diverse in every meaning of this word.</target>
+        <context-group purpose="information">
+          <context context-type="source">XPath: /html/body/div[3]/div[1]/p[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>We have teams with different expertise to set you up with the right experts depending on your business goals.</source>
+        <target state="needs-translation">We have teams with different expertise to set you up with the right experts depending on your business goals.</target>
+        <context-group purpose="information">
+          <context context-type="source">XPath: /html/body/div[3]/div[1]/p[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Marketing is our passion</source>
+        <target state="needs-translation">Marketing is our passion</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 3&#13;
+XPath: /html/body/div[3]/div[1]/h3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Here's how we approach each new project</source>
+        <target state="needs-translation">Here's how we approach each new project</target>
+        <context-group purpose="information">
+          <context context-type="source">Paragraph text&#13;
+XPath: /html/body/div[3]/div[1]/p[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24" translate="no">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[1]/div[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26" translate="no">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[1]/div[3]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28" translate="no">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[1]/div[4]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Marketing solutions for your business</source>
+        <target state="needs-translation">Marketing solutions for your business</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 2&#13;
+XPath: /html/body/div[3]/div[2]/h2[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>We help great products make a difference in their niche.</source>
+        <target state="needs-translation">We help great products make a difference in their niche.</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 5&#13;
+XPath: /html/body/div[3]/div[2]/h5[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34" translate="no">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[2]/div[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>We work with companies across different industries to achieve their marketing goals via various activities, including but not limited to product and website launches, branding, advertising, communications, media coverage, and social media presence.</source>
+        <target state="needs-translation">We work with companies across different industries to achieve their marketing goals via various activities, including but not limited to product and website launches, branding, advertising, communications, media coverage, and social media presence.</target>
+        <context-group purpose="information">
+          <context context-type="source">Paragraph text&#13;
+XPath: /html/body/div[3]/div[2]/p[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Strategies to fuel your business growth</source>
+        <target state="needs-translation">Strategies to fuel your business growth</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 2&#13;
+XPath: /html/body/div[3]/div[2]/h2[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Select the best strategy for your bussiness</source>
+        <target state="needs-translation">Select the best strategy for your bussiness</target>
+        <context-group purpose="information">
+          <context context-type="source">Headline 5&#13;
+XPath: /html/body/div[3]/div[2]/h5[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42" translate="no">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="information">
+          <context context-type="source">Block element text (div)&#13;
+XPath: /html/body/div[3]/div[2]/div[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>It is crucial to go with the right marketing strategy, so we do our best to guide you in the right direction.</source>
+        <target state="needs-translation">It is crucial to go with the right marketing strategy, so we do our best to guide you in the right direction.</target>
+        <context-group purpose="information">
+          <context context-type="source">XPath: /html/body/div[3]/div[2]/p[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Depending on your business purposes, we can develop a plan and implement it to acquire, engage, and retain your customers.</source>
+        <target state="needs-translation">Depending on your business purposes, we can develop a plan and implement it to acquire, engage, and retain your customers.</target>
+        <context-group purpose="information">
+          <context context-type="source">XPath: /html/body/div[3]/div[2]/p[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Our services are flexible, so we can work on a project basis, provide consulting, or find a custom solution for your business.</source>
+        <target state="needs-translation">Our services are flexible, so we can work on a project basis, provide consulting, or find a custom solution for your business.</target>
+        <context-group purpose="information">
+          <context context-type="source">XPath: /html/body/div[3]/div[2]/p[2]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>© 2021 Crowdin</source>
+        <target state="needs-translation">© 2021 Crowdin</target>
+        <context-group purpose="information">
+          <context context-type="source">List Item&#13;
+XPath: /html/body/footer/div/div/div[1]/ul/li[1]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52" translate="no">
+        <source>https://crowdin.com/contacts</source>
+        <target>https://crowdin.com/contacts</target>
+        <context-group purpose="information">
+          <context context-type="source">Link Resource&#13;
+XPath: /html/body/footer/div/div/div[1]/ul/li[2]/a[@href]</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Contact</source>
+        <target state="needs-translation">Contact</target>
+        <context-group purpose="information">
+          <context context-type="source">Anchor Link&#13;
+XPath: /html/body/footer/div/div/div[1]/ul/li[2]/a</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Search</source>
+        <target state="needs-translation">Search</target>
+        <context-group purpose="information">
+          <context context-type="source">Text displayed inside the input field as long as the field is empty&#13;
+XPath: /html/body/footer/div/div/div[2]/form/div/input[@placeholder]</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
