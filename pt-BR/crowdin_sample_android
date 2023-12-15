@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="4" original="/crowdin_sample_android.xml" source-language="en" target-language="pt-BR" datatype="plaintext" project-id="634444" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="58" resname="welcome">
+        <source>Welcome!</source>
+        <target state="needs-translation">Welcome!</target>
+        <context-group purpose="information">
+          <context context-type="source">welcome</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60" resname="save_as">
+        <source>Save as...</source>
+        <target state="needs-translation">Save as...</target>
+        <context-group purpose="information">
+          <context context-type="source">save_as</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62" resname="view">
+        <source>View</source>
+        <target state="needs-translation">View</target>
+        <context-group purpose="information">
+          <context context-type="source">view</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64" resname="about">
+        <source>About...</source>
+        <target state="needs-translation">About...</target>
+        <context-group purpose="information">
+          <context context-type="source">about</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66" resname="about_me">
+        <source>About Me</source>
+        <target state="needs-translation">About Me</target>
+        <context-group purpose="information">
+          <context context-type="source">about_me</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68" resname="current_password">
+        <source>Current Password</source>
+        <target state="needs-translation">Current Password</target>
+        <context-group purpose="information">
+          <context context-type="source">current_password</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70" resname="new_password">
+        <source>New Password</source>
+        <target state="needs-translation">New Password</target>
+        <context-group purpose="information">
+          <context context-type="source">new_password</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72" resname="confirm_password">
+        <source>Confirm New Password</source>
+        <target state="needs-translation">Confirm New Password</target>
+        <context-group purpose="information">
+          <context context-type="source">confirm_password</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74" resname="change_password">
+        <source>Change Password</source>
+        <target state="needs-translation">Change Password</target>
+        <context-group purpose="information">
+          <context context-type="source">change_password</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76" resname="password_recovery">
+        <source>Password recovery</source>
+        <target state="needs-translation">Password recovery</target>
+        <context-group purpose="information">
+          <context context-type="source">password_recovery</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78" resname="password_reset_success">
+        <source>Your password has been reset successfully!</source>
+        <target state="needs-translation">Your password has been reset successfully!</target>
+        <context-group purpose="information">
+          <context context-type="source">password_reset_success</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="80" resname="read_message">
+        <source>Read message</source>
+        <target state="needs-translation">Read message</target>
+        <context-group purpose="information">
+          <context context-type="source">read_message</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82" resname="confirm_delete">
+        <source>Are you sure you want to delete this message?</source>
+        <target state="needs-translation">Are you sure you want to delete this message?</target>
+        <context-group purpose="information">
+          <context context-type="source">confirm_delete</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84" resname="search_in_messages">
+        <source>Search in messages</source>
+        <target state="needs-translation">Search in messages</target>
+        <context-group purpose="information">
+          <context context-type="source">search_in_messages</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86" resname="compose_message">
+        <source>Compose Message</source>
+        <target state="needs-translation">Compose Message</target>
+        <context-group purpose="information">
+          <context context-type="source">compose_message</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="88" resname="no_date">
+        <source>No date provided</source>
+        <target state="needs-translation">No date provided</target>
+        <context-group purpose="information">
+          <context context-type="source">no_date</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90" resname="quick_start">
+        <source>Quick Start</source>
+        <target state="needs-translation">Quick Start</target>
+        <context-group purpose="information">
+          <context context-type="source">quick_start</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
