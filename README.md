@@ -1,3 +1,12 @@
+# External Secrets - Test
+```
+docker run -p 8080:8080 danielmenezesbr/hello-world:latest
+```
+
+```
+curl localhost:8080/env
+```
+
 # Getting started with Testcontainers in a Java Spring Boot Project
 
 This is sample code for [Getting started with Testcontainers in a Java SpringBoot Project](https://testcontainers.com/guides/testing-spring-boot-rest-api-using-testcontainers) Guide.

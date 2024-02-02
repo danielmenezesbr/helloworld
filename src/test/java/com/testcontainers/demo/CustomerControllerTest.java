@@ -24,7 +24,6 @@ import org.springframework.test.context.ActiveProfiles;
         webEnvironment = WebEnvironment.RANDOM_PORT
 )
 @ActiveProfiles("test")
-
 public class CustomerControllerTest {
   @LocalServerPort
   private Integer port;

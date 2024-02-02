@@ -1,3 +1,11 @@
 # https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization.using-basic-sql-scripts
 # makes Spring will always run the database initialization scripts (schema.sql and data.sql) on startup
-spring.sql.init.mode: always
+#spring.sql.init.mode: always
+spring.sql.init.continue-on-error: true
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:seu_sid
+    username: seu_usuario
+    password: sua_senha
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
