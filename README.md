@@ -1,4 +1,18 @@
-# External Secrets - Test
+# External Secrets / Reloader / minikube - Test
+
+
+```
+sudo apt-get update && sudo apt-get install -y ansible
+pip uninstall ansible-core ansible-base
+pip install ansible
+```
+
+```
+ansible-playbook minikube-env.yaml
+```
+
+### App
+
 ```
 docker run -p 8080:8080 danielmenezesbr/hello-world:latest
 ```
