@@ -1,0 +1,55 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Deletar o Minikube
+      command: minikube delete
+      ignore_errors: yes
+
+    - name: Iniciar o Minikube
+      command: minikube start
+
+    - name: Adicionar repositório do Vault
+      command: helm repo add hashicorp https://helm.releases.hashicorp.com
+      ignore_errors: yes
+
+    - name: Instalar Vault via Helm
+      command: helm install vault hashicorp/vault
+      ignore_errors: yes
+
+    - name: Tentar inicializar o Vault
+      command: kubectl exec vault-0 -- vault operator init -key-shares=1 -key-threshold=1 -format=json
+      register: vault_init_attempt
+      changed_when: "'already initialized' not in vault_init_attempt.stdout"
+      retries: 30
+      delay: 10
+      until: vault_init_attempt is succeeded
+
+    - name: Definir variáveis de inicialização
+      set_fact:
+        vault_init: "{{ vault_init_attempt }}"
+      when: vault_init_attempt is succeeded
+
+    - name: Extrair chaves de unseal e token root
+      set_fact:
+        vault_unseal_keys: "{{ vault_init.stdout | from_json | json_query('unseal_keys_b64') }}"
+        vault_root_token: "{{ vault_init.stdout | from_json | json_query('root_token') }}"
+
+    - debug:
+        var: vault_unseal_keys
+
+    - name: Executar unseal do Vault
+      command: kubectl exec vault-0 -- vault operator unseal "{{ item }}"
+      loop: "{{ vault_unseal_keys }}"
+      ignore_errors: yes
+
+    - name: Definir a variável de ambiente VAULT_TOKEN
+      set_fact:
+        VAULT_TOKEN: "{{ vault_root_token }}"
+
+    - debug:
+        var: VAULT_TOKEN
+
+    - name: Executar comandos no Vault
+      command: kubectl exec vault-0 -- sh -c 'vault login "{{ VAULT_TOKEN }}" && vault secrets enable -path=secret -version=2 kv && vault kv put secret/foo my-value=s3cr3t'
+      ignore_errors: yes
